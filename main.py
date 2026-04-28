@@ -1,6 +1,8 @@
 import qrcode
 
-img = qrcode.make("Hello world")
+context = input(str("Content: "))
+
+img = qrcode.make(context)
 
 type(img)
 
